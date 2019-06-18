@@ -7,7 +7,7 @@ def reverse_each_word(str)
   return result.join(" ")
 end
 
-def uses collect(str)
+def uses_collect(str)
   arr = str.split(" ")
   arr.collect do |x|
     x.reverse
