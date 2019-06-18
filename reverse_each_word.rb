@@ -12,5 +12,5 @@ def uses_collect(str)
   arr.collect do |x|
     x.reverse
   end
-  arr.join(" ")
+  return arr.join(" ")
 end
